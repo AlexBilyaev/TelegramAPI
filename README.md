@@ -56,6 +56,7 @@ class Start {
 ```
 
 <h3>Пример нескольких комманд: </h3>
+
 ```php
  $this->commands = ['Start', 'Profile', 'Test'];
 ```
