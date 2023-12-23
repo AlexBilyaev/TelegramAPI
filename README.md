@@ -10,17 +10,18 @@
 $api = new Api('токен', 'Ссылка на бота'); 
 ```
 
-Пример:
+<h3>Пример:</h3>
+
 ```php
 $api = new Api('fi789rf80g348v8giv-GHJyugydgfygw78uy478gvsug48', 'tkgthis_bot'); 
 ```
 <br>
-Как добавили токен и ссылку на бота нужно обновить composer:
+<h3>Как добавили токен и ссылку на бота нужно обновить composer:</h3>
 
 ```
 composer update
 ```
-Запуск бота:
+<h3>Запуск бота:</h3>
 ```
 php .\main.php
 ```
