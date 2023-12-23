@@ -61,3 +61,13 @@ class Start {
  $this->commands = ['Start', 'Profile', 'Test'];
 ```
 
+<br>
+
+<h1>Дополнительно: </h1>
+
+<h3>Можно использовать утилиты такие как Config, и Logger</h3>
+
+```php
+use api\utils\Config;
+use api\utils\Logger;
+```
