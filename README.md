@@ -5,9 +5,11 @@
 <h1>Инструкция</h1>
 <br>
 <h3>В корневой папке проекта в файле main.php нужно ввести токен и ссылка на бота без @.</h3>
+
 ```php
 $api = new Api('токен', 'Ссылка на бота'); 
 ```
+
 Пример:
 ```php
 $api = new Api('fi789rf80g348v8giv-GHJyugydgfygw78uy478gvsug48', 'tkgthis_bot'); 
