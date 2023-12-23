@@ -22,6 +22,7 @@ $api = new Api('fi789rf80g348v8giv-GHJyugydgfygw78uy478gvsug48', 'tkgthis_bot');
 composer update
 ```
 <h3>Запуск бота:</h3>
+
 ```
 php .\main.php
 ```
