@@ -27,5 +27,36 @@ composer update
 php .\main.php
 ```
 
+<br>
+<h1>Создание комманд</h1>
+<h3>Комманды создаються в папке /src/command/commands/Command.php</h3>
 
+<h3>Для того что бы создать новую команду нужно создать класс в папке предположим комманда Start т.е. Start.php</h3>
+<h3>Как должно быть: </h3>
+
+
+```php
+<?php
+
+namespace api\command\commands; //прописать пространство имен
+
+class Start { 
+    public function __construct($event) {
+            if ($event->getCommand() == '/start') { //проверка на команду
+                $event->send("Бот успешно работает!!!"); //отправляет сообщение пользователю!
+            }
+    }
+}
+```
+
+<h3>После создания класса нужно добавить комманду в /src/command/Command.php</h3>
+
+```php
+ $this->commands = ['Start'];
+```
+
+<h3>Пример нескольких комманд: </h3>
+```php
+ $this->commands = ['Start', 'Profile', 'Test'];
+```
 
