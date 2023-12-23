@@ -16,6 +16,7 @@ $api = new Api('fi789rf80g348v8giv-GHJyugydgfygw78uy478gvsug48', 'tkgthis_bot');
 ```
 <br>
 Как добавили токен и ссылку на бота нужно обновить composer:
+
 ```
 composer update
 ```
