@@ -3,9 +3,16 @@
 <h4>Работает на php 7.2+ проверялось так же на php 8.3</h4>
 <br>
 <h1>Инструкция</h1>
-В корневой папке проекта в файле main.php нужно ввести токен и ссылка на бота без @.
-![image](https://github.com/AlexBilyaev/TelegramAPI/assets/154700923/be95deb7-f704-40ac-81f5-cb17ffa2f7fa)
-
+<br>
+<h3>В корневой папке проекта в файле main.php нужно ввести токен и ссылка на бота без @.</h3>
+```php
+$api = new Api('токен', 'Ссылка на бота'); 
+```
+Пример:
+```php
+$api = new Api('fi789rf80g348v8giv-GHJyugydgfygw78uy478gvsug48', 'tkgthis_bot'); 
+```
+<br>
 Как добавили токен и ссылку на бота нужно обновить composer:
 ```
 composer update
